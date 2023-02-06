@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="360.143">
+<testcase classname="BPM_SastaSafar_Web" name="Find flight process" time="101.229">
+<system-out><![CDATA[Given User refer the "BPM_SastaSafar_Web.xlsx"..............................passed
+When Verify the "Home page" with "Home_Page_Title" from given sheet "TestData".passed
+When User click on the "From text field"....................................passed
+When User enters text in text field "From" from given sheet "TestData"......passed
+When User click on the "Chennai (MAA)"......................................passed
+When User click on the "To text field"......................................passed
+When User enters text in text field "To_1" from given sheet "TestData"......passed
+When User click on the "Goa (GOI)"..........................................passed
+When User click on the "Depature Date"......................................passed
+When User click on the "Date"...............................................passed
+When User click on the "TRAVELLERS & CABIN Drop down".......................passed
+When User click on the "Class Drop down"....................................passed
+When User click on the "Economy"............................................passed
+When User click on the "Done button"........................................passed
+Then User click on the "Search button"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BPM_SastaSafar_Web" name="Ways of booking tickets for trip Flight" time="128.161">
+<system-out><![CDATA[Given User refer the "BPM_SastaSafar_Web.xlsx"..............................passed
+When Verify the "Home page" with "Home_Page_Title" from given sheet "TestData".passed
+When User click on the "FLIGHT tab".........................................passed
+When Verify the "flight home page" with "flight home page title" from given sheet "TestData".passed
+When User click on the "Round trip radio button"............................passed
+When User click on the "From text field"....................................passed
+When User enters text in text field "From" from given sheet "TestData"......passed
+When User click on the "Chennai (MAA)"......................................passed
+When User click on the "To text field"......................................passed
+When User enters text in text field "To_2" from given sheet "TestData"......passed
+When User click on the "Goa (GOI)"..........................................passed
+When User click on the "Depature Date"......................................passed
+When User click on the "Date"...............................................passed
+When User click on the "Add Return Date"....................................passed
+When User click on the "Date1"..............................................passed
+When User click on the "TRAVELLERS & CABIN Drop down".......................passed
+When User click on the "Class Drop down"....................................passed
+When User click on the "Economy"............................................passed
+When User click on the "Done button"........................................passed
+Then User click on the "Search button"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BPM_SastaSafar_Web" name="Ways of booking tickets for trip Bus" time="100.127">
+<system-out><![CDATA[Given User refer the "BPM_SastaSafar_Web.xlsx"..............................passed
+When Verify the "Home page" with "Home_Page_Title" from given sheet "TestData".passed
+When User click on the "BUS tab"............................................passed
+When Verify the "Bus home page" with "Bus home page title" from given sheet "TestData".passed
+When User click on the "Bus Search From text field".........................passed
+When User enters text in text field "Bus Search From" from given sheet "TestData".passed
+When User click on the "Chennai"............................................passed
+When User click on the "Bus Search To text field"...........................passed
+When User enters text in text field "Bus Search To" from given sheet "TestData".passed
+When User click on the "Hyderabad"..........................................passed
+When User click on the "Bus Depature Date"..................................passed
+When User click on the "Date"...............................................passed
+Then User click on the "Bus Search button"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BPM_SastaSafar_Web" name="Ways of booking tickets for trip Packages" time="28.483">
+<system-out><![CDATA[Given User refer the "BPM_SastaSafar_Web.xlsx"..............................passed
+When Verify the "Home page" with "Home_Page_Title" from given sheet "TestData".passed
+When User click on the "PACKAGES tab".......................................passed
+Then Verify the "packages home page" with "packages home page title" from given sheet "TestData".passed
+]]></system-out>
+</testcase>
+</testsuite>
