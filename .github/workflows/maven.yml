@@ -60,7 +60,7 @@ jobs:
       with:
        token: ${{ secrets.GITHUB_TOKEN }}
        branch: allure
-       folder: ./target/allure-results
+       folder: ./allure-results
        
     - name: Reports
       uses: JamesIves/github-pages-deploy-action@4.1.5
